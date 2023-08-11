@@ -30,6 +30,8 @@ button {
 .tela-resultado {
   border: none;
   border-radius: 10px;
+
+  text-align: end;
 }
 
 .grid-teclado {

@@ -7,15 +7,16 @@
   <title>Calculadora Tabajara</title>
 
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   
   <div class="calculadora">
-    <input class="tela-resultado" type="text">
+    <input id="telaResultado" class="tela-resultado" type="text">
 
     <div class="grid-teclado">
-      <button>CE</button>
-      <button>
+      <button id="btnLimpar">CE</button>
+      <button id="btnApagar">
         <img class="icone-apagar" src="https://www.svgrepo.com/show/65997/delete.svg" class="icone-apagar">
       </button>
       <button>%</button>
@@ -38,9 +39,8 @@
   
       <button>0</button>
       <button>.</button>
-      <button>=</button>
+      <button id="btnCalcular">=</button>
     </div>
   </div>
-
 </body>
 </html>
